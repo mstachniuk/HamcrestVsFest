@@ -42,6 +42,7 @@
     <orderEntry type="library" name="Maven: org.apache.maven.surefire:surefire-junit4:2.4.3" level="project" />
     <orderEntry type="library" name="Maven: junit:junit:4.8.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven.surefire:surefire-api:2.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.plugins:maven-resources-plugin:2.6" level="project" />
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />
     <orderEntry type="library" name="Maven: org.easytesting:fest-assert-core:2.0M8" level="project" />
     <orderEntry type="library" name="Maven: org.easytesting:fest-util:1.2.3" level="project" />
