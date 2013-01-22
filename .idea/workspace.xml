@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" name="Default" comment="update surefire plugin version">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_api_2_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_junit4_2_13.xml" />
-      <change type="DELETED" beforePath="D:\Java_programy\HamcrestVsFest\.idea\libraries\Maven__junit_junit_4_8_2.xml" afterPath="" />
+    <list default="true" id="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/PlanetRotationDirectionMatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/PlanetWithNameMatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/SolarSystemHamcrestTest.java" />
+      <change type="DELETED" beforePath="D:\Java_programy\HamcrestVsFest\.idea\libraries\fest_assert_core_2_0M8.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Java_programy\HamcrestVsFest\lib\fest-assert-core-2.0M8.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Java_programy\HamcrestVsFest\lib\hamcrest-all-1.3.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HamcrestVsFest.iml" afterPath="$PROJECT_DIR$/HamcrestVsFest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/fest/SolarSystemFestTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/fest/SolarSystemFestTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\Java_programy\HamcrestVsFest\.idea\libraries\Maven__org_hamcrest_hamcrest_core_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" />
     </list>
     <ignored path="HamcrestVsFest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,12 +31,17 @@
     <file path="/RotationDirection.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1357979990765" ignored="false" />
     <file path="/SiderealYear.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1357981873134" ignored="false" />
     <file path="/Gases.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1357982735847" ignored="false" />
-    <file path="/Dummy.txt" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358114306921" ignored="false" />
+    <file path="/Dummy.txt" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358891882503" ignored="false" />
     <file path="/PlanetBuilder.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358077851834" ignored="false" />
-    <file path="/SolarSystemFestTest.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358085932026" ignored="false" />
+    <file path="/SolarSystemFestTest.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358284475985" ignored="false" />
     <file path="/PlanetAssert.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358085094332" ignored="false" />
-    <file path="/pom.xml" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358115893409" ignored="false" />
+    <file path="/pom.xml" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358288403587" ignored="false" />
     <file path="D:/maven2.2.1/conf/settings.xml" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358116276531" ignored="false" />
+    <file path="/SolarSystemHamcrestTest.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358896290132" ignored="false" />
+    <file path="/PlanetWithName.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358289441202" ignored="false" />
+    <file path="/a.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358894073574" ignored="false" />
+    <file path="/WithName.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358895662572" ignored="false" />
+    <file path="/PlanetRotationDirectionMatcher.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358896305370" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,10 +109,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="51" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.5258621">
+            <state line="63" column="20" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlanetWithNameMatcher.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/PlanetWithNameMatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolarSystemFestTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/fest/SolarSystemFestTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="30" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolarSystemHamcrestTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/SolarSystemHamcrestTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="12" selection-start="973" selection-end="973" vertical-scroll-proportion="0.40950227">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlanetRotationDirectionMatcher.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/PlanetRotationDirectionMatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="60" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolarSystemManualTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/manual/SolarSystemManualTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="13" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,43 +170,7 @@
       <file leaf-file-name="SolarSystem.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/blogspot/mstachniuk/hamcrestvsfest/SolarSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="40" selection-start="1686" selection-end="1862" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gases.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blogspot/mstachniuk/hamcrestvsfest/Gases.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="61" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolarSystemFestTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/fest/SolarSystemFestTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="57" selection-start="2050" selection-end="2050" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlanetAssert.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/fest/PlanetAssert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="37" selection-start="2149" selection-end="2149" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlanetSetAssert.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/fest/PlanetSetAssert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="29" selection-start="1125" selection-end="1146" vertical-scroll-proportion="0.0">
+            <state line="9" column="16" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,11 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/blogspot/mstachniuk/hamcrestvsfest/RotationDirection.java" />
-        <option value="$PROJECT_DIR$/src/com/blogspot/mstachniuk/hamcrestvsfest/SiderealYear.java" />
-        <option value="$PROJECT_DIR$/src/com/blogspot/mstachniuk/hamcrestvsfest/Planet.java" />
-        <option value="$PROJECT_DIR$/src/com/blogspot/mstachniuk/hamcrestvsfest/Gases.java" />
-        <option value="$PROJECT_DIR$/src/com/blogspot/mstachniuk/hamcrestvsfest/PlanetBuilder.java" />
         <option value="$PROJECT_DIR$/src/com/blogspot/mstachniuk/hamcrestvsfest/SolarSystem.java" />
         <option value="$PROJECT_DIR$/test/com/blogspot/mstachniuk/hamcrestvsfest/manual/SolarSystemManualTest.java" />
         <option value="$PROJECT_DIR$/test/com/blogspot/mstachniuk/hamcrestvsfest/fest/PlanetAssert.java" />
@@ -193,6 +211,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/fest/PlanetAssert.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/fest/SolarSystemFestTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/WithName.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/PlanetWithName.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/PlanetWithNameMatcher.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/SolarSystemHamcrestTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/PlanetRotationDirectionMatcher.java" />
       </list>
     </option>
   </component>
@@ -228,46 +251,6 @@
           <option name="myItemId" value="HamcrestVsFest" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="resources" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="HamcrestVsFest" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="HamcrestVsFest" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="compiler" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
-        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -302,16 +285,34 @@
             <id>Android Lint</id>
           </State>
           <State>
+            <id>Class structure</id>
+          </State>
+          <State>
             <id>Control flow issues</id>
           </State>
           <State>
             <id>Control flow issuesJavaScript</id>
           </State>
           <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
             <id>Groovy</id>
           </State>
           <State>
+            <id>Inheritance issues</id>
+          </State>
+          <State>
             <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
           </State>
           <State>
             <id>Performance issues</id>
@@ -321,6 +322,9 @@
           </State>
           <State>
             <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>TestNG</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -344,6 +348,11 @@
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="unused-library(library:project:Maven: org.hamcrest:hamcrest-core:1.3)" />
+    </ignored-problems>
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -357,8 +366,60 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="HamcrestVsFest">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="HamcrestVsFest">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/test/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/blogspot/mstachniuk/hamcrestvsfest">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="hamcrest">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="HamcrestVsFest">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/test/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/blogspot/mstachniuk/hamcrestvsfest">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -400,6 +461,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hamcrestvsfest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manual" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HamcrestVsFest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HamcrestVsFest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hamcrestvsfest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hamcrest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -479,6 +574,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -490,10 +586,10 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Java" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/hamcrest-all-1.3.jar!/" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.29248554" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -576,7 +672,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="SolarSystemFestTest.shouldCreateNewProfile" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="SolarSystemFestTest.shouldGenerateInnerPlanets" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.blogspot.mstachniuk.hamcrestvsfest.fest.*" />
@@ -588,7 +684,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.blogspot.mstachniuk.hamcrestvsfest.fest" />
       <option name="MAIN_CLASS_NAME" value="com.blogspot.mstachniuk.hamcrestvsfest.fest.SolarSystemFestTest" />
-      <option name="METHOD_NAME" value="shouldCreateNewProfile" />
+      <option name="METHOD_NAME" value="shouldGenerateInnerPlanets" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -613,6 +709,34 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SolarSystemHamcrestTest.shouldGenerateInnerPlanets" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.blogspot.mstachniuk.hamcrestvsfest.hamcrest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="HamcrestVsFest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.blogspot.mstachniuk.hamcrestvsfest.hamcrest" />
+      <option name="MAIN_CLASS_NAME" value="com.blogspot.mstachniuk.hamcrestvsfest.hamcrest.SolarSystemHamcrestTest" />
+      <option name="METHOD_NAME" value="shouldGenerateInnerPlanets" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -739,18 +863,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SolarSystemManualTest.shouldGenerateInnerPlanets" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.SolarSystemFestTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SolarSystemFestTest.shouldCreateNewProfile" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SolarSystemFestTest.shouldGenerateInnerPlanets" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.All in HamcrestVsFest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SolarSystemHamcrestTest.shouldGenerateInnerPlanets" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.All in HamcrestVsFest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SolarSystemFestTest.shouldCreateNewProfile" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SolarSystemFestTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SolarSystemManualTest.shouldGenerateInnerPlanets" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SolarSystemHamcrestTest.shouldGenerateInnerPlanets" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SolarSystemFestTest.shouldGenerateInnerPlanets" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SolarSystemFestTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SolarSystemManualTest.shouldGenerateInnerPlanets" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -803,11 +929,15 @@
       <created>1358105667921</created>
       <updated>1358105667921</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update conf">
+      <created>1358118105828</created>
+      <updated>1358118105828</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32784638" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -820,20 +950,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32784638" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29053086" sideWeight="0.67215365" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30344334" sideWeight="0.6726272" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22453372" sideWeight="0.67215365" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32784638" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22453372" sideWeight="0.6726272" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32737276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1256" height="686" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.6726272" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -875,7 +1005,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="update surefire plugin version" />
+    <option name="LAST_COMMIT_MESSAGE" value="update conf" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -893,6 +1023,7 @@
     <MESSAGE value="migrate to Maven" />
     <MESSAGE value="update resources encoding" />
     <MESSAGE value="update surefire plugin version" />
+    <MESSAGE value="update conf" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -902,37 +1033,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blogspot/mstachniuk/hamcrestvsfest/Gases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="61" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/fest/SolarSystemFestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="57" selection-start="2050" selection-end="2050" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/fest/PlanetAssert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="37" selection-start="2149" selection-end="2149" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/fest/PlanetSetAssert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="29" selection-start="1125" selection-end="1146" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/blogspot/mstachniuk/hamcrestvsfest/SolarSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="34" selection-start="62" selection-end="83" vertical-scroll-proportion="0.0">
+        <state line="9" column="16" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -951,11 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/fest-assert-core-2.0M8.jar!/org/fest/assertions/api/AbstractAssert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1633" selection-end="1633" vertical-scroll-proportion="-5.36" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/blogspot/mstachniuk/hamcrestvsfest/RotationDirection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="32" selection-start="113" selection-end="113" vertical-scroll-proportion="0.11038961">
@@ -970,20 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blogspot/mstachniuk/hamcrestvsfest/PlanetBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blogspot/mstachniuk/hamcrestvsfest/Gases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="61" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/fest/PlanetAssert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="37" selection-start="2149" selection-end="2149" vertical-scroll-proportion="0.0">
@@ -991,23 +1075,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blogspot/mstachniuk/hamcrestvsfest/SolarSystem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blogspot/mstachniuk/hamcrestvsfest/Gases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="40" selection-start="1686" selection-end="1862" vertical-scroll-proportion="0.0">
+        <state line="3" column="61" selection-start="130" selection-end="130" vertical-scroll-proportion="0.115384616">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/fest/SolarSystemFestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="57" selection-start="2050" selection-end="2050" vertical-scroll-proportion="0.0">
+        <state line="15" column="30" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/PlanetWithNameMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="51" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.5258621">
+        <state line="63" column="20" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blogspot/mstachniuk/hamcrestvsfest/PlanetBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="25" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blogspot/mstachniuk/hamcrestvsfest/SolarSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/manual/SolarSystemManualTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/PlanetRotationDirectionMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="60" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/SolarSystemHamcrestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="12" selection-start="973" selection-end="973" vertical-scroll-proportion="0.40950227">
           <folding />
         </state>
       </provider>
@@ -1033,7 +1163,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.29248554" />
               </list>
             </option>
           </splitter-proportions>
@@ -1068,7 +1198,8 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.29248554" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1088,11 +1219,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>fest-assert-core-2.0M8</last-edited>
+          <last-edited>Maven: org.hamcrest:hamcrest-core:1.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.29248554" />
               </list>
             </option>
           </splitter-proportions>

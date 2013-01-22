@@ -13,7 +13,7 @@ import static com.blogspot.mstachniuk.hamcrestvsfest.fest.MyProjectAssertions.as
 public class SolarSystemFestTest {
 
     @Test
-    public void shouldCreateNewProfile() {
+    public void shouldGenerateInnerPlanets() {
         // given
         SolarSystem service = new SolarSystem();
 
