@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/PlanetRotationDirectionMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/PlanetWithNameMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/hamcrest/SolarSystemHamcrestTest.java" />
-      <change type="DELETED" beforePath="D:\Java_programy\HamcrestVsFest\.idea\libraries\fest_assert_core_2_0M8.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Java_programy\HamcrestVsFest\lib\fest-assert-core-2.0M8.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Java_programy\HamcrestVsFest\lib\hamcrest-all-1.3.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HamcrestVsFest.iml" afterPath="$PROJECT_DIR$/HamcrestVsFest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/fest/SolarSystemFestTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/blogspot/mstachniuk/hamcrestvsfest/fest/SolarSystemFestTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Java_programy\HamcrestVsFest\.idea\libraries\Maven__org_hamcrest_hamcrest_core_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" />
     </list>
     <ignored path="HamcrestVsFest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +20,7 @@
     <file path="/RotationDirection.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1357979990765" ignored="false" />
     <file path="/SiderealYear.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1357981873134" ignored="false" />
     <file path="/Gases.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1357982735847" ignored="false" />
-    <file path="/Dummy.txt" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358891882503" ignored="false" />
+    <file path="/Dummy.txt" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358896404654" ignored="false" />
     <file path="/PlanetBuilder.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358077851834" ignored="false" />
     <file path="/SolarSystemFestTest.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358284475985" ignored="false" />
     <file path="/PlanetAssert.java" changelist="c0bc61ff-dd70-4c40-a6cc-413daed15f0e" time="1358085094332" ignored="false" />
@@ -933,7 +922,11 @@
       <created>1358118105828</created>
       <updated>1358118105828</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first test with Hamcrest">
+      <created>1358896411127</created>
+      <updated>1358896411127</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1005,7 +998,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="update conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="first test with Hamcrest" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1024,6 +1017,7 @@
     <MESSAGE value="update resources encoding" />
     <MESSAGE value="update surefire plugin version" />
     <MESSAGE value="update conf" />
+    <MESSAGE value="first test with Hamcrest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
