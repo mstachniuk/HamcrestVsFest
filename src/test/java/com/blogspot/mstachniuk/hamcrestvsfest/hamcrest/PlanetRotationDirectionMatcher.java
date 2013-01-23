@@ -26,7 +26,7 @@ public class PlanetRotationDirectionMatcher extends BaseMatcher<Planet> {
     }
 
     @Factory
-    public static PlanetRotationDirectionMatcher hasRotation(RotationDirection rotation) {
+    public static PlanetRotationDirectionMatcher rotation(RotationDirection rotation) {
         return new PlanetRotationDirectionMatcher(rotation);
     }
 }
