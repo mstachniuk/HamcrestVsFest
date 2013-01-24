@@ -36,6 +36,25 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.13</version>
             </plugin>
+
+            <plugin>
+                <groupId>org.easytesting</groupId>
+                <artifactId>maven-fest-assertion-generator-plugin</artifactId>
+                <version>1.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate-assertions</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <packages>
+                        <param>com.blogspot.mstachniuk.hamcrestvsfest</param>
+                    </packages>
+                    <targetDir>src/test/java</targetDir>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
