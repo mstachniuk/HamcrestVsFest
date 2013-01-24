@@ -69,7 +69,7 @@ public class SolarSystemHamcrestTest {
         assertThat(mars, PlanetGasNegation.hasNotGases(Gases.OXYGEN));
     }
 
-    private Planet findPlanetByName(Set<Planet> planets, String planetName) {
+    public static Planet findPlanetByName(Set<Planet> planets, String planetName) {
         for (Planet planet : planets) {
             if(planet.getName().equals(planetName)) {
                 return planet;
