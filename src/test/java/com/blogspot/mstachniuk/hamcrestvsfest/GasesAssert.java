@@ -1,9 +1,8 @@
 package com.blogspot.mstachniuk.hamcrestvsfest;
 
-import static java.lang.String.format;
-
 import org.fest.assertions.api.AbstractAssert;
-import org.fest.assertions.api.Assertions;
+
+import static java.lang.String.format;
 
 
 /**
@@ -11,42 +10,47 @@ import org.fest.assertions.api.Assertions;
  */
 public class GasesAssert extends AbstractAssert<GasesAssert, Gases> {
 
-  /**
-   * Creates a new </code>{@link GasesAssert}</code> to make assertions on actual Gases.
-   * @param actual the Gases we want to make assertions on.
-   */
-  public GasesAssert(Gases actual) {
-    super(actual, GasesAssert.class);
-  }
+    /**
+     * Creates a new </code>{@link GasesAssert}</code> to make assertions on actual Gases.
+     *
+     * @param actual the Gases we want to make assertions on.
+     */
+    public GasesAssert(Gases actual) {
+        super(actual, GasesAssert.class);
+    }
 
-  /**
-   * An entry point for GasesAssert to follow Fest standard <code>assertThat()</code> statements.<br>
-   * With a static import, one's can write directly : <code>assertThat(myGases)</code> and get specific assertion with code completion.
-   * @param actual the Gases we want to make assertions on.
-   * @return a new </code>{@link GasesAssert}</code>
-   */
-  public static GasesAssert assertThat(Gases actual) {
-    return new GasesAssert(actual);
-  }
+    /**
+     * An entry point for GasesAssert to follow Fest standard <code>assertThat()</code> statements.<br>
+     * With a static import, one's can write directly : <code>assertThat(myGases)</code> and get specific assertion with code completion.
+     *
+     * @param actual the Gases we want to make assertions on.
+     * @return a new </code>{@link GasesAssert}</code>
+     */
+    public static GasesAssert assertThat(Gases actual) {
+        return new GasesAssert(actual);
+    }
 
-  /**
-   * Verifies that the actual Gases's declaringClass is equal to the given one.
-   * @param declaringClass the given declaringClass to compare the actual Gases's declaringClass to.
-   * @return this assertion object.
-   * @throws AssertionError - if the actual Gases's declaringClass is not equal to the given one.
-   */
-  public GasesAssert hasDeclaringClass(Class declaringClass) {
-    // check that actual Gases we want to make assertions on is not null.
-    isNotNull();
+    /**
+     * Verifies that the actual Gases's declaringClass is equal to the given one.
+     *
+     * @param declaringClass the given declaringClass to compare the actual Gases's declaringClass to.
+     * @return this assertion object.
+     * @throws AssertionError - if the actual Gases's declaringClass is not equal to the given one.
+     */
+    public GasesAssert hasDeclaringClass(Class declaringClass) {
+        // check that actual Gases we want to make assertions on is not null.
+        isNotNull();
 
-    // we overrides the default error message with a more explicit one
-    String errorMessage = format("Expected Gases's declaringClass to be <%s> but was <%s>", declaringClass, actual.getDeclaringClass());
-    
-    // check
-    if (!actual.getDeclaringClass().equals(declaringClass)) { throw new AssertionError(errorMessage); }
+        // we overrides the default error message with a more explicit one
+        String errorMessage = format("Expected Gases's declaringClass to be <%s> but was <%s>", declaringClass, actual.getDeclaringClass());
 
-    // return the current assertion for method chaining
-    return this;
-  }
+        // check
+        if (!actual.getDeclaringClass().equals(declaringClass)) {
+            throw new AssertionError(errorMessage);
+        }
+
+        // return the current assertion for method chaining
+        return this;
+    }
 
 }

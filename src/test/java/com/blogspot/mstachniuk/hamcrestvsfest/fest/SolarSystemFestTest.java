@@ -56,5 +56,8 @@ public class SolarSystemFestTest {
                 .withAcceleration(3.69)
                 .containsGases(Gases.CARBON_DIOXIDE, Gases.NITROGEN)
                 .doesNotContainGases(Gases.OXYGEN);
+
+        assertThat(innerPlanets)
+                .containsOnlyPlanets("Mercury", "Venus", "Earth", "Mars");
     }
 }

@@ -13,12 +13,12 @@ import static com.blogspot.mstachniuk.hamcrestvsfest.hamcrest.PlanetDiameterMatc
 import static com.blogspot.mstachniuk.hamcrestvsfest.hamcrest.PlanetGasHasOnlyMatcher.hasOnlyGases;
 import static com.blogspot.mstachniuk.hamcrestvsfest.hamcrest.PlanetGasMatcher.hasGas;
 import static com.blogspot.mstachniuk.hamcrestvsfest.hamcrest.PlanetGasMatcher.hasGases;
+import static com.blogspot.mstachniuk.hamcrestvsfest.hamcrest.PlanetGasNegation.hasNotGases;
 import static com.blogspot.mstachniuk.hamcrestvsfest.hamcrest.PlanetRotationDirectionMatcher.rotation;
 import static com.blogspot.mstachniuk.hamcrestvsfest.hamcrest.PlanetWithNameMatcher.withName;
-import static com.blogspot.mstachniuk.hamcrestvsfest.hamcrest.PlanetYearLong.yearLongInEarthDays;
+import static com.blogspot.mstachniuk.hamcrestvsfest.hamcrest.PlanetYearLongMatcher.yearLongInEarthDays;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.hasItem;
-import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.*;
 
 
 public class SolarSystemHamcrestTest {
@@ -57,7 +57,7 @@ public class SolarSystemHamcrestTest {
         assertThat(earth, is(yearLongInEarthDays(365.256_363_004)));
         assertThat(earth, is(acceleration(9.806_65)));
         assertThat(earth, hasGases(Gases.NITROGEN, Gases.OXYGEN));
-        assertThat(earth, PlanetGasNegation.hasNotGases(Gases.SODIUM));
+        assertThat(earth, hasNotGases(Gases.SODIUM));
 
         assertThat(innerPlanets, hasItem(withName("Mars")));
         Planet mars = findPlanetByName(innerPlanets, "Mars");
@@ -66,7 +66,9 @@ public class SolarSystemHamcrestTest {
         assertThat(mars, is(yearLongInEarthDays(686.960_1)));
         assertThat(mars, is(acceleration(3.69)));
         assertThat(mars, hasGases(Gases.CARBON_DIOXIDE, Gases.NITROGEN));
-        assertThat(mars, PlanetGasNegation.hasNotGases(Gases.OXYGEN));
+        assertThat(mars, hasNotGases(Gases.OXYGEN));
+
+        assertThat(innerPlanets, hasSize(4));
     }
 
     public static Planet findPlanetByName(Set<Planet> planets, String planetName) {

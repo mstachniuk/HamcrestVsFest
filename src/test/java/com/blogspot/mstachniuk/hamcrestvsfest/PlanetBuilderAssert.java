@@ -1,9 +1,6 @@
 package com.blogspot.mstachniuk.hamcrestvsfest;
 
-import static java.lang.String.format;
-
 import org.fest.assertions.api.AbstractAssert;
-import org.fest.assertions.api.Assertions;
 
 
 /**
@@ -11,22 +8,24 @@ import org.fest.assertions.api.Assertions;
  */
 public class PlanetBuilderAssert extends AbstractAssert<PlanetBuilderAssert, PlanetBuilder> {
 
-  /**
-   * Creates a new </code>{@link PlanetBuilderAssert}</code> to make assertions on actual PlanetBuilder.
-   * @param actual the PlanetBuilder we want to make assertions on.
-   */
-  public PlanetBuilderAssert(PlanetBuilder actual) {
-    super(actual, PlanetBuilderAssert.class);
-  }
+    /**
+     * Creates a new </code>{@link PlanetBuilderAssert}</code> to make assertions on actual PlanetBuilder.
+     *
+     * @param actual the PlanetBuilder we want to make assertions on.
+     */
+    public PlanetBuilderAssert(PlanetBuilder actual) {
+        super(actual, PlanetBuilderAssert.class);
+    }
 
-  /**
-   * An entry point for PlanetBuilderAssert to follow Fest standard <code>assertThat()</code> statements.<br>
-   * With a static import, one's can write directly : <code>assertThat(myPlanetBuilder)</code> and get specific assertion with code completion.
-   * @param actual the PlanetBuilder we want to make assertions on.
-   * @return a new </code>{@link PlanetBuilderAssert}</code>
-   */
-  public static PlanetBuilderAssert assertThat(PlanetBuilder actual) {
-    return new PlanetBuilderAssert(actual);
-  }
+    /**
+     * An entry point for PlanetBuilderAssert to follow Fest standard <code>assertThat()</code> statements.<br>
+     * With a static import, one's can write directly : <code>assertThat(myPlanetBuilder)</code> and get specific assertion with code completion.
+     *
+     * @param actual the PlanetBuilder we want to make assertions on.
+     * @return a new </code>{@link PlanetBuilderAssert}</code>
+     */
+    public static PlanetBuilderAssert assertThat(PlanetBuilder actual) {
+        return new PlanetBuilderAssert(actual);
+    }
 
 }

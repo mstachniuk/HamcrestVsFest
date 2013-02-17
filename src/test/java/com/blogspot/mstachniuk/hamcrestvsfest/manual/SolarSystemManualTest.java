@@ -10,11 +10,10 @@ import java.util.List;
 import java.util.Set;
 
 import static java.util.Arrays.asList;
-import static junit.framework.Assert.assertEquals;
-import static junit.framework.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class SolarSystemManualTest {
-
 
     @Test
     public void shouldGenerateInnerPlanets() {
@@ -50,8 +49,8 @@ public class SolarSystemManualTest {
                               double yearInEarthDays, double acceleration, List<Gases> atmosphereGases) {
         assertEquals(direction, planet.getRotationDirection());
         assertEquals(diameterInMeter, planet.getDiameter());
-        assertEquals(yearInEarthDays, planet.getSiderealYear().inEarthDays());
-        assertEquals(acceleration, planet.getAcceleration());
+        assertEquals(yearInEarthDays, planet.getSiderealYear().inEarthDays(), 0.01);
+        assertEquals(acceleration, planet.getAcceleration(), 0.01);
         for (Gases gas : atmosphereGases) {
             assertTrue("Planet " + planet.getName() + " doesn't contains " + gas,
                     planet.getAtmosphereGases().contains(gas));

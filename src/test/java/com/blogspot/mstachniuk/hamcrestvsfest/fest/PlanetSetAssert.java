@@ -4,12 +4,14 @@ import com.blogspot.mstachniuk.hamcrestvsfest.Planet;
 import org.fest.assertions.api.AbstractAssert;
 import org.fest.assertions.api.Assertions;
 
+import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
 import java.util.Set;
 
 public class PlanetSetAssert extends AbstractAssert<PlanetSetAssert, Set<Planet>> {
 
-    protected PlanetSetAssert(Set<Planet> actual) {
+    private PlanetSetAssert(Set<Planet> actual) {
         super(actual, PlanetSetAssert.class);
     }
 
@@ -51,6 +53,18 @@ public class PlanetSetAssert extends AbstractAssert<PlanetSetAssert, Set<Planet>
             }
         }
         return null;
+    }
+
+    public PlanetSetAssert containsOnlyPlanets(String... planets) {
+        List<Planet> expectedPlanets = new ArrayList<>();
+        for (String planet : planets) {
+            Planet p = new Planet(planet);
+            expectedPlanets.add(p);
+        }
+        Assertions.assertThat(actual)
+                .usingElementComparator(new PlanetNameComparator())
+                .containsOnly(expectedPlanets.toArray(new Planet[expectedPlanets.size()]));
+        return this;
     }
 
     private class PlanetNameComparator implements Comparator<Planet> {

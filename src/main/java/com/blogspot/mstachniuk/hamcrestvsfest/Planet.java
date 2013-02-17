@@ -58,4 +58,9 @@ public class Planet {
     public void setAtmosphereGases(Set<Gases> atmosphereGases) {
         this.atmosphereGases = atmosphereGases;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

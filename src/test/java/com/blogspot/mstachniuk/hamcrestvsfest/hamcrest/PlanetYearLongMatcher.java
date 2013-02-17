@@ -4,11 +4,11 @@ import com.blogspot.mstachniuk.hamcrestvsfest.Planet;
 import org.hamcrest.BaseMatcher;
 import org.hamcrest.Description;
 
-public class PlanetYearLong extends BaseMatcher<Planet>{
+public class PlanetYearLongMatcher extends BaseMatcher<Planet>{
 
     private double yearLongInEarthDays;
 
-    public PlanetYearLong(double yearLongInEarthDays) {
+    public PlanetYearLongMatcher(double yearLongInEarthDays) {
         this.yearLongInEarthDays = yearLongInEarthDays;
     }
 
@@ -22,7 +22,7 @@ public class PlanetYearLong extends BaseMatcher<Planet>{
     public void describeTo(Description description) {
     }
 
-    public static PlanetYearLong yearLongInEarthDays(double yearLongInEarthDays) {
-        return new PlanetYearLong(yearLongInEarthDays);
+    public static PlanetYearLongMatcher yearLongInEarthDays(double yearLongInEarthDays) {
+        return new PlanetYearLongMatcher(yearLongInEarthDays);
     }
 }
